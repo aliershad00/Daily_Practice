@@ -1,0 +1,13 @@
+// Program: Find Largest Among Three Numbers
+
+let a = 30;
+let b = 80;
+let c = 50;
+
+if (a >= b && a >= c) {
+    console.log("Largest =", a);
+} else if (b >= a && b >= c) {
+    console.log("Largest =", b);
+} else {
+    console.log("Largest =", c);
+}
